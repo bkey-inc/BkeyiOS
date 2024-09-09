@@ -1,0 +1,11 @@
+framework module Bkey {
+  umbrella header "Bkey.h"
+  export *
+
+  module * { export * }
+}
+
+module Bkey.Swift {
+  header "Bkey-Swift.h"
+  requires objc
+}
