@@ -90,10 +90,6 @@ public enum ModeData {
 }
 extension Bkey.Bkey {
   public func Initialize(clientId: Swift.String, clientSecret: Swift.String)
-  public func Enroll(deviceId: Swift.String, password: Swift.String, callback: @escaping ([Swift.UInt8]) -> Swift.Void) throws -> some SwiftUI.View
-  
-  public func Verify(deviceId: Swift.String, password: Swift.String, bioHash: [Swift.UInt8], callback: @escaping (Swift.Bool) -> Swift.Void) throws -> some SwiftUI.View
-  
 }
 @_inheritsConvenienceInitializers @objc(PublicKey) public class PublicKey : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
