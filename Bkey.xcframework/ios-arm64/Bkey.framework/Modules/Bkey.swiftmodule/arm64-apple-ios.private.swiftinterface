@@ -51,11 +51,11 @@ public enum ModeData {
     get
   }
 }
-@_hasMissingDesignatedInitializers public class Bkey {
-  public static let shared: Bkey.Bkey
+@_hasMissingDesignatedInitializers public class Bkey2 {
+  public static let shared: Bkey.Bkey2
   @objc deinit
 }
-extension Bkey.Bkey {
+extension Bkey.Bkey2 {
   public func Test()
 }
 @_inheritsConvenienceInitializers @objc(PublicKey) public class PublicKey : CoreData.NSManagedObject {

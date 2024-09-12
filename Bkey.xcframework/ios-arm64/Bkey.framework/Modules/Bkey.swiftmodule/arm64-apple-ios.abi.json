@@ -1273,8 +1273,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Bkey",
-        "printedName": "Bkey",
+        "name": "Bkey2",
+        "printedName": "Bkey2",
         "children": [
           {
             "kind": "Var",
@@ -1283,14 +1283,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bkey",
-                "printedName": "Bkey.Bkey",
-                "usr": "s:4BkeyAAC"
+                "name": "Bkey2",
+                "printedName": "Bkey.Bkey2",
+                "usr": "s:4Bkey5Bkey2C"
               }
             ],
             "declKind": "Var",
-            "usr": "s:4BkeyAAC6sharedABvpZ",
-            "mangledName": "$s4BkeyAAC6sharedABvpZ",
+            "usr": "s:4Bkey5Bkey2C6sharedACvpZ",
+            "mangledName": "$s4Bkey5Bkey2C6sharedACvpZ",
             "moduleName": "Bkey",
             "static": true,
             "declAttributes": [
@@ -1309,14 +1309,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Bkey",
-                    "printedName": "Bkey.Bkey",
-                    "usr": "s:4BkeyAAC"
+                    "name": "Bkey2",
+                    "printedName": "Bkey.Bkey2",
+                    "usr": "s:4Bkey5Bkey2C"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:4BkeyAAC6sharedABvgZ",
-                "mangledName": "$s4BkeyAAC6sharedABvgZ",
+                "usr": "s:4Bkey5Bkey2C6sharedACvgZ",
+                "mangledName": "$s4Bkey5Bkey2C6sharedACvgZ",
                 "moduleName": "Bkey",
                 "static": true,
                 "implicit": true,
@@ -1339,8 +1339,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:4BkeyAAC4TestyyF",
-            "mangledName": "$s4BkeyAAC4TestyyF",
+            "usr": "s:4Bkey5Bkey2C4TestyyF",
+            "mangledName": "$s4Bkey5Bkey2C4TestyyF",
             "moduleName": "Bkey",
             "declAttributes": [
               "RawDocComment"
@@ -1350,8 +1350,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:4BkeyAAC",
-        "mangledName": "$s4BkeyAAC",
+        "usr": "s:4Bkey5Bkey2C",
+        "mangledName": "$s4Bkey5Bkey2C",
         "moduleName": "Bkey",
         "declAttributes": [
           "AccessControl",
