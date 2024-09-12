@@ -1272,6 +1272,135 @@
         "moduleName": "Bkey"
       },
       {
+        "kind": "Function",
+        "name": "Enroll",
+        "printedName": "Enroll(deviceId:password:callback:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "EnrollView",
+            "printedName": "Bkey.EnrollView",
+            "usr": "s:4Bkey10EnrollViewV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "([Swift.UInt8]) -> ()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:4Bkey6Enroll8deviceId8password8callbackQrSS_SSySays5UInt8VGctKF",
+        "mangledName": "$s4Bkey6Enroll8deviceId8password8callbackQrSS_SSySays5UInt8VGctKF",
+        "moduleName": "Bkey",
+        "declAttributes": [
+          "AccessControl",
+          "Custom",
+          "RawDocComment"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "Verify",
+        "printedName": "Verify(deviceId:password:bioHash:callback:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "VerifyView",
+            "printedName": "Bkey.VerifyView",
+            "usr": "s:4Bkey10VerifyViewV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Swift.UInt8]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "usr": "s:Sa"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(Swift.Bool) -> ()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ]
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:4Bkey6Verify8deviceId8password7bioHash8callbackQrSS_SSSays5UInt8VGySbctKF",
+        "mangledName": "$s4Bkey6Verify8deviceId8password7bioHash8callbackQrSS_SSSays5UInt8VGySbctKF",
+        "moduleName": "Bkey",
+        "declAttributes": [
+          "AccessControl",
+          "Custom"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
+      },
+      {
         "kind": "TypeDecl",
         "name": "Bkey2",
         "printedName": "Bkey2",

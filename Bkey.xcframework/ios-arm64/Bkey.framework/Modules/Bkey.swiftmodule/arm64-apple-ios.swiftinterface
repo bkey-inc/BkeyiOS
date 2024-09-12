@@ -51,6 +51,10 @@ public enum ModeData {
     get
   }
 }
+public func Enroll(deviceId: Swift.String, password: Swift.String, callback: @escaping ([Swift.UInt8]) -> Swift.Void) throws -> some SwiftUI.View
+
+public func Verify(deviceId: Swift.String, password: Swift.String, bioHash: [Swift.UInt8], callback: @escaping (Swift.Bool) -> Swift.Void) throws -> some SwiftUI.View
+
 @_hasMissingDesignatedInitializers public class Bkey2 {
   public static let shared: Bkey.Bkey2
   @objc deinit
