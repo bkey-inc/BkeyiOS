@@ -72,8 +72,39 @@ Add the sdk to your application using SPM then access the shared BkeyiOS class a
    ```
 <br>
 
-Enjoy a privacy friendly authentication solution.
+After a user is enrolled or verified. Functionality opens up to be able to perform actions with the biometrics that the user has just presented. 
 
+### Encrypt / Decrypt strings 
+```sh
+do {
+    // Encrypt a string
+    let encryptedString = try bkeySDK.EncryptString(value: "Hello, World!")
+    print("Encrypted String: \(encryptedString)")
+    
+    // Decrypt the string
+    let decryptedString = try bkeySDK.DecryptString(value: encryptedString)
+    print("Decrypted String: \(decryptedString)")
+} catch {
+    print("Encryption/Decryption Error: \(error)")
+}
+```
+
+### Encrypt / Decrypt Data
+```sh
+do {
+    // Encrypt data
+    let dataToEncrypt = "Hello, World!".data(using: .utf8)!
+    let encryptedData = try bkeySDK.EncryptData(data: dataToEncrypt)
+    print("Encrypted Data: \(encryptedData)")
+    
+    // Decrypt the data
+    let decryptedData = try bkeySDK.DecryptData(data: encryptedData)
+    let decryptedString = String(decoding: decryptedData, as: UTF8.self)
+    print("Decrypted Data: \(decryptedString)")
+} catch {
+    print("Encryption/Decryption Error: \(error)")
+}
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,6 +115,7 @@ Enjoy a privacy friendly authentication solution.
 - [X] Authentication 
 - [ ] Biometrically encrypt and decrypt data
 - [ ] Biometrically sign and verify data
+- [ ] Biometric key generation
 - [ ] Recovery as a service
 
 
