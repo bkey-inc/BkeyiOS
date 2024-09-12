@@ -1354,8 +1354,7 @@
         "mangledName": "$s4Bkey5Bkey2C",
         "moduleName": "Bkey",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "hasMissingDesignatedInitializers": true
       },
