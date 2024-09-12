@@ -51,16 +51,15 @@ public enum ModeData {
     get
   }
 }
-public func Enroll(deviceId: Swift.String, password: Swift.String, callback: @escaping ([Swift.UInt8]) -> Swift.Void) throws -> some SwiftUI.View
-
-public func Verify(deviceId: Swift.String, password: Swift.String, bioHash: [Swift.UInt8], callback: @escaping (Swift.Bool) -> Swift.Void) throws -> some SwiftUI.View
-
-@_hasMissingDesignatedInitializers public class Bkey2 {
-  public static let shared: Bkey.Bkey2
+@_hasMissingDesignatedInitializers public class BkeyiOS {
+  public static let shared: Bkey.BkeyiOS
   @objc deinit
 }
-extension Bkey.Bkey2 {
-  public func Test()
+extension Bkey.BkeyiOS {
+  public func Enroll(deviceId: Swift.String, password: Swift.String, callback: @escaping ([Swift.UInt8]) -> Swift.Void) throws -> some SwiftUI.View
+  
+  public func Verify(deviceId: Swift.String, password: Swift.String, bioHash: [Swift.UInt8], callback: @escaping (Swift.Bool) -> Swift.Void) throws -> some SwiftUI.View
+  
 }
 @_inheritsConvenienceInitializers @objc(PublicKey) public class PublicKey : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
