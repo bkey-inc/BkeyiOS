@@ -860,1570 +860,6 @@
         ]
       },
       {
-        "kind": "Var",
-        "name": "IDKEY_MODE_AUX_DATA",
-        "printedName": "IDKEY_MODE_AUX_DATA",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey19IDKEY_MODE_AUX_DATAs6UInt16Vvp",
-        "mangledName": "$s4Bkey19IDKEY_MODE_AUX_DATAs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey19IDKEY_MODE_AUX_DATAs6UInt16Vvg",
-            "mangledName": "$s4Bkey19IDKEY_MODE_AUX_DATAs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_MODE_FACE",
-        "printedName": "IDKEY_MODE_FACE",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey15IDKEY_MODE_FACEs6UInt16Vvp",
-        "mangledName": "$s4Bkey15IDKEY_MODE_FACEs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey15IDKEY_MODE_FACEs6UInt16Vvg",
-            "mangledName": "$s4Bkey15IDKEY_MODE_FACEs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_VENDOR_BKEYIF_0_1_0",
-        "printedName": "IDKEY_VENDOR_BKEYIF_0_1_0",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey25IDKEY_VENDOR_BKEYIF_0_1_0s6UInt16Vvp",
-        "mangledName": "$s4Bkey25IDKEY_VENDOR_BKEYIF_0_1_0s6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey25IDKEY_VENDOR_BKEYIF_0_1_0s6UInt16Vvg",
-            "mangledName": "$s4Bkey25IDKEY_VENDOR_BKEYIF_0_1_0s6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_TYPE_NUMERIC",
-        "printedName": "IDKEY_TYPE_NUMERIC",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey18IDKEY_TYPE_NUMERICs6UInt16Vvp",
-        "mangledName": "$s4Bkey18IDKEY_TYPE_NUMERICs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey18IDKEY_TYPE_NUMERICs6UInt16Vvg",
-            "mangledName": "$s4Bkey18IDKEY_TYPE_NUMERICs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_TYPE_HEXUPPER",
-        "printedName": "IDKEY_TYPE_HEXUPPER",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey19IDKEY_TYPE_HEXUPPERs6UInt16Vvp",
-        "mangledName": "$s4Bkey19IDKEY_TYPE_HEXUPPERs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey19IDKEY_TYPE_HEXUPPERs6UInt16Vvg",
-            "mangledName": "$s4Bkey19IDKEY_TYPE_HEXUPPERs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_TYPE_HEXLOWER",
-        "printedName": "IDKEY_TYPE_HEXLOWER",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey19IDKEY_TYPE_HEXLOWERs6UInt16Vvp",
-        "mangledName": "$s4Bkey19IDKEY_TYPE_HEXLOWERs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey19IDKEY_TYPE_HEXLOWERs6UInt16Vvg",
-            "mangledName": "$s4Bkey19IDKEY_TYPE_HEXLOWERs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_TYPE_ALPHA_NUMERIC",
-        "printedName": "IDKEY_TYPE_ALPHA_NUMERIC",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey24IDKEY_TYPE_ALPHA_NUMERICs6UInt16Vvp",
-        "mangledName": "$s4Bkey24IDKEY_TYPE_ALPHA_NUMERICs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey24IDKEY_TYPE_ALPHA_NUMERICs6UInt16Vvg",
-            "mangledName": "$s4Bkey24IDKEY_TYPE_ALPHA_NUMERICs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_TYPE_SPECIAL_ALPHA_NUMERIC",
-        "printedName": "IDKEY_TYPE_SPECIAL_ALPHA_NUMERIC",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey32IDKEY_TYPE_SPECIAL_ALPHA_NUMERICs6UInt16Vvp",
-        "mangledName": "$s4Bkey32IDKEY_TYPE_SPECIAL_ALPHA_NUMERICs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey32IDKEY_TYPE_SPECIAL_ALPHA_NUMERICs6UInt16Vvg",
-            "mangledName": "$s4Bkey32IDKEY_TYPE_SPECIAL_ALPHA_NUMERICs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_TYPE_CUSTOM_ALPHABET",
-        "printedName": "IDKEY_TYPE_CUSTOM_ALPHABET",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey26IDKEY_TYPE_CUSTOM_ALPHABETs6UInt16Vvp",
-        "mangledName": "$s4Bkey26IDKEY_TYPE_CUSTOM_ALPHABETs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey26IDKEY_TYPE_CUSTOM_ALPHABETs6UInt16Vvg",
-            "mangledName": "$s4Bkey26IDKEY_TYPE_CUSTOM_ALPHABETs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_TYPE_PI_KEY",
-        "printedName": "IDKEY_TYPE_PI_KEY",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey17IDKEY_TYPE_PI_KEYs6UInt16Vvp",
-        "mangledName": "$s4Bkey17IDKEY_TYPE_PI_KEYs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey17IDKEY_TYPE_PI_KEYs6UInt16Vvg",
-            "mangledName": "$s4Bkey17IDKEY_TYPE_PI_KEYs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_TYPE_BIPS0039_KEYWORD",
-        "printedName": "IDKEY_TYPE_BIPS0039_KEYWORD",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey27IDKEY_TYPE_BIPS0039_KEYWORDs6UInt16Vvp",
-        "mangledName": "$s4Bkey27IDKEY_TYPE_BIPS0039_KEYWORDs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey27IDKEY_TYPE_BIPS0039_KEYWORDs6UInt16Vvg",
-            "mangledName": "$s4Bkey27IDKEY_TYPE_BIPS0039_KEYWORDs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_TYPE_AES_KEY",
-        "printedName": "IDKEY_TYPE_AES_KEY",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey18IDKEY_TYPE_AES_KEYs6UInt16Vvp",
-        "mangledName": "$s4Bkey18IDKEY_TYPE_AES_KEYs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey18IDKEY_TYPE_AES_KEYs6UInt16Vvg",
-            "mangledName": "$s4Bkey18IDKEY_TYPE_AES_KEYs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_TYPE_RSA_PUBLIC_KEY",
-        "printedName": "IDKEY_TYPE_RSA_PUBLIC_KEY",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey25IDKEY_TYPE_RSA_PUBLIC_KEYs6UInt16Vvp",
-        "mangledName": "$s4Bkey25IDKEY_TYPE_RSA_PUBLIC_KEYs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey25IDKEY_TYPE_RSA_PUBLIC_KEYs6UInt16Vvg",
-            "mangledName": "$s4Bkey25IDKEY_TYPE_RSA_PUBLIC_KEYs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_TYPE_RSA_PRIVATE_KEY",
-        "printedName": "IDKEY_TYPE_RSA_PRIVATE_KEY",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey26IDKEY_TYPE_RSA_PRIVATE_KEYs6UInt16Vvp",
-        "mangledName": "$s4Bkey26IDKEY_TYPE_RSA_PRIVATE_KEYs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey26IDKEY_TYPE_RSA_PRIVATE_KEYs6UInt16Vvg",
-            "mangledName": "$s4Bkey26IDKEY_TYPE_RSA_PRIVATE_KEYs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_TYPE_EC_PUBLIC_KEY",
-        "printedName": "IDKEY_TYPE_EC_PUBLIC_KEY",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey24IDKEY_TYPE_EC_PUBLIC_KEYs6UInt16Vvp",
-        "mangledName": "$s4Bkey24IDKEY_TYPE_EC_PUBLIC_KEYs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey24IDKEY_TYPE_EC_PUBLIC_KEYs6UInt16Vvg",
-            "mangledName": "$s4Bkey24IDKEY_TYPE_EC_PUBLIC_KEYs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_TYPE_EC_PRIVATE_KEY",
-        "printedName": "IDKEY_TYPE_EC_PRIVATE_KEY",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey25IDKEY_TYPE_EC_PRIVATE_KEYs6UInt16Vvp",
-        "mangledName": "$s4Bkey25IDKEY_TYPE_EC_PRIVATE_KEYs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey25IDKEY_TYPE_EC_PRIVATE_KEYs6UInt16Vvg",
-            "mangledName": "$s4Bkey25IDKEY_TYPE_EC_PRIVATE_KEYs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_BIPS0032_PUBLIC_KEY_TYPE",
-        "printedName": "IDKEY_BIPS0032_PUBLIC_KEY_TYPE",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey30IDKEY_BIPS0032_PUBLIC_KEY_TYPEs6UInt16Vvp",
-        "mangledName": "$s4Bkey30IDKEY_BIPS0032_PUBLIC_KEY_TYPEs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey30IDKEY_BIPS0032_PUBLIC_KEY_TYPEs6UInt16Vvg",
-            "mangledName": "$s4Bkey30IDKEY_BIPS0032_PUBLIC_KEY_TYPEs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_BIPS0032_PRIVATE_KEY_TYPE",
-        "printedName": "IDKEY_BIPS0032_PRIVATE_KEY_TYPE",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey31IDKEY_BIPS0032_PRIVATE_KEY_TYPEs6UInt16Vvp",
-        "mangledName": "$s4Bkey31IDKEY_BIPS0032_PRIVATE_KEY_TYPEs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey31IDKEY_BIPS0032_PRIVATE_KEY_TYPEs6UInt16Vvg",
-            "mangledName": "$s4Bkey31IDKEY_BIPS0032_PRIVATE_KEY_TYPEs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_BIPS0032_KEY_PAIR_TYPE",
-        "printedName": "IDKEY_BIPS0032_KEY_PAIR_TYPE",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey28IDKEY_BIPS0032_KEY_PAIR_TYPEs6UInt16Vvp",
-        "mangledName": "$s4Bkey28IDKEY_BIPS0032_KEY_PAIR_TYPEs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey28IDKEY_BIPS0032_KEY_PAIR_TYPEs6UInt16Vvg",
-            "mangledName": "$s4Bkey28IDKEY_BIPS0032_KEY_PAIR_TYPEs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_BIPS0032_P2PKH_ADDRESS",
-        "printedName": "IDKEY_BIPS0032_P2PKH_ADDRESS",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey28IDKEY_BIPS0032_P2PKH_ADDRESSs6UInt16Vvp",
-        "mangledName": "$s4Bkey28IDKEY_BIPS0032_P2PKH_ADDRESSs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey28IDKEY_BIPS0032_P2PKH_ADDRESSs6UInt16Vvg",
-            "mangledName": "$s4Bkey28IDKEY_BIPS0032_P2PKH_ADDRESSs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_BIP32_BINARY_FORMAT",
-        "printedName": "IDKEY_BIP32_BINARY_FORMAT",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey25IDKEY_BIP32_BINARY_FORMATs6UInt16Vvp",
-        "mangledName": "$s4Bkey25IDKEY_BIP32_BINARY_FORMATs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey25IDKEY_BIP32_BINARY_FORMATs6UInt16Vvg",
-            "mangledName": "$s4Bkey25IDKEY_BIP32_BINARY_FORMATs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_BIP32_BASE58_FORMAT",
-        "printedName": "IDKEY_BIP32_BASE58_FORMAT",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey25IDKEY_BIP32_BASE58_FORMATs6UInt16Vvp",
-        "mangledName": "$s4Bkey25IDKEY_BIP32_BASE58_FORMATs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey25IDKEY_BIP32_BASE58_FORMATs6UInt16Vvg",
-            "mangledName": "$s4Bkey25IDKEY_BIP32_BASE58_FORMATs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_ALPHABET_CHARACTER",
-        "printedName": "IDKEY_ALPHABET_CHARACTER",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt8",
-            "printedName": "Swift.UInt8",
-            "usr": "s:s5UInt8V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey24IDKEY_ALPHABET_CHARACTERs5UInt8Vvp",
-        "mangledName": "$s4Bkey24IDKEY_ALPHABET_CHARACTERs5UInt8Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt8",
-                "printedName": "Swift.UInt8",
-                "usr": "s:s5UInt8V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey24IDKEY_ALPHABET_CHARACTERs5UInt8Vvg",
-            "mangledName": "$s4Bkey24IDKEY_ALPHABET_CHARACTERs5UInt8Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_BIP0039_KEYWORD",
-        "printedName": "IDKEY_BIP0039_KEYWORD",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey21IDKEY_BIP0039_KEYWORDs6UInt16Vvp",
-        "mangledName": "$s4Bkey21IDKEY_BIP0039_KEYWORDs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey21IDKEY_BIP0039_KEYWORDs6UInt16Vvg",
-            "mangledName": "$s4Bkey21IDKEY_BIP0039_KEYWORDs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_NO_BINDING",
-        "printedName": "IDKEY_NO_BINDING",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey16IDKEY_NO_BINDINGs6UInt16Vvp",
-        "mangledName": "$s4Bkey16IDKEY_NO_BINDINGs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey16IDKEY_NO_BINDINGs6UInt16Vvg",
-            "mangledName": "$s4Bkey16IDKEY_NO_BINDINGs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_BIP0039_12KEYWORDS",
-        "printedName": "IDKEY_BIP0039_12KEYWORDS",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey24IDKEY_BIP0039_12KEYWORDSs6UInt16Vvp",
-        "mangledName": "$s4Bkey24IDKEY_BIP0039_12KEYWORDSs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey24IDKEY_BIP0039_12KEYWORDSs6UInt16Vvg",
-            "mangledName": "$s4Bkey24IDKEY_BIP0039_12KEYWORDSs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_BIP0039_15KEYWORDS",
-        "printedName": "IDKEY_BIP0039_15KEYWORDS",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey24IDKEY_BIP0039_15KEYWORDSs6UInt16Vvp",
-        "mangledName": "$s4Bkey24IDKEY_BIP0039_15KEYWORDSs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey24IDKEY_BIP0039_15KEYWORDSs6UInt16Vvg",
-            "mangledName": "$s4Bkey24IDKEY_BIP0039_15KEYWORDSs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_BIP0039_18KEYWORDS",
-        "printedName": "IDKEY_BIP0039_18KEYWORDS",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey24IDKEY_BIP0039_18KEYWORDSs6UInt16Vvp",
-        "mangledName": "$s4Bkey24IDKEY_BIP0039_18KEYWORDSs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey24IDKEY_BIP0039_18KEYWORDSs6UInt16Vvg",
-            "mangledName": "$s4Bkey24IDKEY_BIP0039_18KEYWORDSs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_BIP0039_21KEYWORDS",
-        "printedName": "IDKEY_BIP0039_21KEYWORDS",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey24IDKEY_BIP0039_21KEYWORDSs6UInt16Vvp",
-        "mangledName": "$s4Bkey24IDKEY_BIP0039_21KEYWORDSs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey24IDKEY_BIP0039_21KEYWORDSs6UInt16Vvg",
-            "mangledName": "$s4Bkey24IDKEY_BIP0039_21KEYWORDSs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_BIP0039_24KEYWORDS",
-        "printedName": "IDKEY_BIP0039_24KEYWORDS",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey24IDKEY_BIP0039_24KEYWORDSs6UInt16Vvp",
-        "mangledName": "$s4Bkey24IDKEY_BIP0039_24KEYWORDSs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey24IDKEY_BIP0039_24KEYWORDSs6UInt16Vvg",
-            "mangledName": "$s4Bkey24IDKEY_BIP0039_24KEYWORDSs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_MAX_NUM_AUX_KEYS",
-        "printedName": "IDKEY_MAX_NUM_AUX_KEYS",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey22IDKEY_MAX_NUM_AUX_KEYSs6UInt16Vvp",
-        "mangledName": "$s4Bkey22IDKEY_MAX_NUM_AUX_KEYSs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey22IDKEY_MAX_NUM_AUX_KEYSs6UInt16Vvg",
-            "mangledName": "$s4Bkey22IDKEY_MAX_NUM_AUX_KEYSs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_NEW_BINDINGS",
-        "printedName": "IDKEY_NEW_BINDINGS",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey18IDKEY_NEW_BINDINGSs6UInt16Vvp",
-        "mangledName": "$s4Bkey18IDKEY_NEW_BINDINGSs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey18IDKEY_NEW_BINDINGSs6UInt16Vvg",
-            "mangledName": "$s4Bkey18IDKEY_NEW_BINDINGSs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_APPEND_BINDINGS",
-        "printedName": "IDKEY_APPEND_BINDINGS",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey21IDKEY_APPEND_BINDINGSs6UInt16Vvp",
-        "mangledName": "$s4Bkey21IDKEY_APPEND_BINDINGSs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey21IDKEY_APPEND_BINDINGSs6UInt16Vvg",
-            "mangledName": "$s4Bkey21IDKEY_APPEND_BINDINGSs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
-        "kind": "Var",
-        "name": "IDKEY_DELETE_BINDINGS",
-        "printedName": "IDKEY_DELETE_BINDINGS",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "UInt16",
-            "printedName": "Swift.UInt16",
-            "usr": "s:s6UInt16V"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:4Bkey21IDKEY_DELETE_BINDINGSs6UInt16Vvp",
-        "mangledName": "$s4Bkey21IDKEY_DELETE_BINDINGSs6UInt16Vvp",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "isLet": true,
-        "hasStorage": true,
-        "accessors": [
-          {
-            "kind": "Accessor",
-            "name": "Get",
-            "printedName": "Get()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt16",
-                "printedName": "Swift.UInt16",
-                "usr": "s:s6UInt16V"
-              }
-            ],
-            "declKind": "Accessor",
-            "usr": "s:4Bkey21IDKEY_DELETE_BINDINGSs6UInt16Vvg",
-            "mangledName": "$s4Bkey21IDKEY_DELETE_BINDINGSs6UInt16Vvg",
-            "moduleName": "Bkey",
-            "implicit": true,
-            "accessorKind": "get"
-          }
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "ModeData",
         "printedName": "ModeData",
@@ -2841,31 +1277,70 @@
         "printedName": "Bkey",
         "children": [
           {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bkey",
+                "printedName": "Bkey.Bkey",
+                "usr": "s:4BkeyAAC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:4BkeyAAC6sharedABvpZ",
+            "mangledName": "$s4BkeyAAC6sharedABvpZ",
+            "moduleName": "Bkey",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bkey",
+                    "printedName": "Bkey.Bkey",
+                    "usr": "s:4BkeyAAC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:4BkeyAAC6sharedABvgZ",
+                "mangledName": "$s4BkeyAAC6sharedABvgZ",
+                "moduleName": "Bkey",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
-            "name": "Initialize",
-            "printedName": "Initialize(clientId:clientSecret:)",
+            "name": "Test",
+            "printedName": "Test()",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:4BkeyAAC10Initialize8clientId0C6SecretySS_SStF",
-            "mangledName": "$s4BkeyAAC10Initialize8clientId0C6SecretySS_SStF",
+            "usr": "s:4BkeyAAC4TestyyF",
+            "mangledName": "$s4BkeyAAC4TestyyF",
             "moduleName": "Bkey",
             "declAttributes": [
               "RawDocComment"
@@ -8453,1225 +6928,1225 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 9857,
+      "offset": 4876,
       "length": 4,
       "value": "\"{ \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 10003,
+      "offset": 5022,
       "length": 6,
       "value": "\"%02X\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 10035,
+      "offset": 5054,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 10062,
+      "offset": 5081,
       "length": 27,
       "value": "\"\"modeType\": \"AuxData\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 10112,
+      "offset": 5131,
       "length": 27,
       "value": "\", \"auxType\": \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 10138,
+      "offset": 5157,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 10162,
+      "offset": 5181,
       "length": 24,
       "value": "\", \"data\": \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 10185,
+      "offset": 5204,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 10305,
+      "offset": 5324,
       "length": 30,
       "value": "\"{ \"modeType\": \"FaceData\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 10358,
+      "offset": 5377,
       "length": 25,
       "value": "\", \"vendor\": \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 10382,
+      "offset": 5401,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 10406,
+      "offset": 5425,
       "length": 33,
       "value": "\", \"numSamples\": \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 10438,
+      "offset": 5457,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 10462,
+      "offset": 5481,
       "length": 29,
       "value": "\", \"features\": \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 10490,
+      "offset": 5509,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 10520,
+      "offset": 5539,
       "length": 4,
       "value": "\" }\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 11042,
+      "offset": 11427,
       "length": 4,
       "value": "\"[ \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 11147,
+      "offset": 11532,
       "length": 5,
       "value": "\",\n\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 11189,
+      "offset": 11574,
       "length": 6,
       "value": "\" ]\n\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "Array",
-      "offset": 11527,
+      "offset": 11912,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "Array",
-      "offset": 12003,
+      "offset": 12388,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "Array",
-      "offset": 13436,
+      "offset": 13821,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 14375,
+      "offset": 14760,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "Array",
-      "offset": 14504,
+      "offset": 14889,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "Array",
-      "offset": 15438,
+      "offset": 15823,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 16080,
+      "offset": 16465,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 16582,
+      "offset": 16967,
       "length": 35,
       "value": "\"ERROR in open! (result=\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 16615,
+      "offset": 17000,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 16695,
+      "offset": 17080,
       "length": 30,
       "value": "\"Library Initialization Error\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 17111,
+      "offset": 17496,
       "length": 36,
       "value": "\"ERROR in close! (result=\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 17145,
+      "offset": 17530,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 17227,
+      "offset": 17612,
       "length": 32,
       "value": "\"Library Deinitialization Error\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 17787,
+      "offset": 18172,
       "length": 37,
       "value": "\"*** IN getBioHashTemplateSize ***\n\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 18009,
+      "offset": 18394,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 18042,
+      "offset": 18427,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 18149,
+      "offset": 18534,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 18220,
+      "offset": 18605,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 18351,
+      "offset": 18736,
       "length": 29,
       "value": "\"Enrollment for size Failure\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "Array",
-      "offset": 18629,
+      "offset": 19014,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 19072,
+      "offset": 19457,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 19154,
+      "offset": 19539,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 19287,
+      "offset": 19672,
       "length": 47,
       "value": "\"Enrollment With Binding List for size Failure\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 20045,
+      "offset": 20430,
       "length": 45,
       "value": "\"*** IN getBioHashTemplateReEnrollSize ***\n\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 20275,
+      "offset": 20660,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 20308,
+      "offset": 20693,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 20415,
+      "offset": 20800,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 20848,
+      "offset": 21233,
       "length": 31,
       "value": "\"reEnrollment for size Failure\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "Array",
-      "offset": 21149,
+      "offset": 21534,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 21661,
+      "offset": 22046,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 22082,
+      "offset": 22467,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 22526,
+      "offset": 22911,
       "length": 49,
       "value": "\"reEnrollment With Binding List for size Failure\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 23810,
+      "offset": 24222,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 23851,
+      "offset": 24263,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 23925,
+      "offset": 24337,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 23994,
+      "offset": 24406,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 24190,
+      "offset": 24602,
       "length": 30,
       "value": "\"GenerateKey for size Failure\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 24769,
+      "offset": 25181,
       "length": 43,
       "value": "\"*** IN getBioHashRecoveryEnrollSize ***\n\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 25180,
+      "offset": 25592,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 25248,
+      "offset": 25660,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 25325,
+      "offset": 25737,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 25496,
+      "offset": 25908,
       "length": 33,
       "value": "\"RecoveryEnroll for size Failure\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 25688,
+      "offset": 26100,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 25711,
+      "offset": 26123,
       "length": 33,
       "value": "\"getBioHashRecoveryEnrollSize : \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 25767,
+      "offset": 26179,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 25795,
+      "offset": 26207,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 26269,
+      "offset": 26681,
       "length": 45,
       "value": "\"*** IN getBioHashRecoveryTemplateSize ***\n\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 26429,
+      "offset": 26841,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 26530,
+      "offset": 26942,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 26670,
+      "offset": 27082,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 26868,
+      "offset": 27280,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 26950,
+      "offset": 27362,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 26983,
+      "offset": 27395,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 27225,
+      "offset": 27637,
       "length": 35,
       "value": "\"getBioHashRecoveryTemplateSize : \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 27294,
+      "offset": 27706,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 27961,
+      "offset": 28373,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 28052,
+      "offset": 28464,
       "length": 21,
       "value": "\"*** IN enroll ***\n\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 28230,
+      "offset": 28642,
       "length": 39,
       "value": "\"sampleData: \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 28268,
+      "offset": 28680,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 28317,
+      "offset": 28729,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 28469,
+      "offset": 28881,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 28723,
+      "offset": 29135,
       "length": 40,
       "value": "\"Template.data: \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 28762,
+      "offset": 29174,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 28787,
+      "offset": 29199,
       "length": 33,
       "value": "\"c_sample_data: \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 28819,
+      "offset": 29231,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 29219,
+      "offset": 29631,
       "length": 20,
       "value": "\"Enrollment Failure\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "Array",
-      "offset": 29474,
+      "offset": 29886,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 29986,
+      "offset": 30398,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 30511,
+      "offset": 30923,
       "length": 40,
       "value": "\"Template.data: \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 30550,
+      "offset": 30962,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 30575,
+      "offset": 30987,
       "length": 33,
       "value": "\"c_sample_data: \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 30607,
+      "offset": 31019,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 31013,
+      "offset": 31425,
       "length": 38,
       "value": "\"Enrollment With Binding Data Failure\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 32045,
+      "offset": 32457,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 32530,
+      "offset": 32942,
       "length": 22,
       "value": "\"Verification Failure\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 34306,
+      "offset": 34718,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 34364,
+      "offset": 34776,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 34402,
+      "offset": 34814,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 34441,
+      "offset": 34853,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 35248,
+      "offset": 35660,
       "length": 22,
       "value": "\"Reenrollment Failure\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "Array",
-      "offset": 35529,
+      "offset": 35941,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 36044,
+      "offset": 36456,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 37175,
+      "offset": 37587,
       "length": 40,
       "value": "\"Reenrollment With Binding Data Failure\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 39207,
+      "offset": 39619,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 39547,
+      "offset": 39959,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 39608,
+      "offset": 40020,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 39839,
+      "offset": 40251,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 39894,
+      "offset": 40306,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 39963,
+      "offset": 40375,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 40490,
+      "offset": 40902,
       "length": 21,
       "value": "\"GenerateKey Failure\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 40719,
+      "offset": 41131,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 43177,
+      "offset": 43589,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 43238,
+      "offset": 43650,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 43276,
+      "offset": 43688,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 43298,
+      "offset": 43710,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 43598,
+      "offset": 44010,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 43667,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
-      "kind": "StringLiteral",
-      "offset": 44218,
-      "length": 21,
-      "value": "\"GenerateKey Failure\""
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 44464,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 44486,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 45040,
+      "offset": 44079,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 45615,
+      "offset": 44630,
       "length": 21,
       "value": "\"GenerateKey Failure\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 45895,
+      "offset": 44876,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 45917,
+      "offset": 44898,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 46339,
+      "offset": 45452,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 47018,
+      "offset": 46027,
+      "length": 21,
+      "value": "\"GenerateKey Failure\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 46307,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 46329,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 46751,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
+      "kind": "StringLiteral",
+      "offset": 47430,
       "length": 21,
       "value": "\"GenerateKey Failure\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 48586,
+      "offset": 48998,
       "length": 21,
       "value": "\"GenerateKey Failure\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 48917,
+      "offset": 49329,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 50622,
+      "offset": 51034,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 51364,
+      "offset": 51776,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 52098,
+      "offset": 52510,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 52836,
+      "offset": 53248,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 53538,
+      "offset": 53950,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 55023,
+      "offset": 55435,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 55098,
+      "offset": 55510,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 55158,
+      "offset": 55570,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 56233,
+      "offset": 56645,
       "length": 24,
       "value": "\"RecoveryEnroll Failure\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "Array",
-      "offset": 56466,
+      "offset": 56878,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 56558,
+      "offset": 56970,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 56625,
+      "offset": 57037,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 57116,
+      "offset": 57528,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 57541,
+      "offset": 57953,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 57671,
+      "offset": 58083,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 58493,
+      "offset": 58905,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 58594,
+      "offset": 59006,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 58739,
+      "offset": 59151,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 59086,
+      "offset": 59498,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 59175,
+      "offset": 59587,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 59243,
+      "offset": 59655,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 59388,
+      "offset": 59800,
       "length": 48,
       "value": "\"BioHASH_IDKey_RecoverTemplate for size Failure\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 60212,
+      "offset": 60624,
       "length": 25,
       "value": "\"RecoverTemplate Failure\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 60393,
+      "offset": 60805,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 60554,
+      "offset": 60966,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 61560,
+      "offset": 61972,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 62026,
+      "offset": 62438,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 62044,
+      "offset": 62456,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 62207,
+      "offset": 62619,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "BooleanLiteral",
-      "offset": 62265,
+      "offset": 62677,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 62308,
+      "offset": 62720,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 63210,
+      "offset": 63622,
       "length": 20,
       "value": "\"RecoverKey Failure\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 64816,
+      "offset": 65228,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 65376,
+      "offset": 65788,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 66483,
+      "offset": 66895,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "StringLiteral",
-      "offset": 67122,
+      "offset": 67534,
       "length": 30,
       "value": "\"Invalid mode data type! (%d)\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 68305,
+      "offset": 68717,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 68455,
+      "offset": 68867,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 68944,
+      "offset": 69356,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 69630,
+      "offset": 70042,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 69952,
+      "offset": 70364,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 70054,
+      "offset": 70466,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 71115,
+      "offset": 71527,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 71456,
+      "offset": 71868,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 71573,
+      "offset": 71985,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 71746,
+      "offset": 72158,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 71888,
+      "offset": 72300,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BioHashIDKey\/BioHashIDKeyWrapper.swift",
       "kind": "IntegerLiteral",
-      "offset": 72315,
+      "offset": 72727,
       "length": 1,
       "value": "0"
     },
@@ -10735,196 +9210,196 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 6881,
+      "offset": 6908,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 6991,
+      "offset": 7018,
       "length": 6,
       "value": "0xde00"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 7143,
+      "offset": 7170,
       "length": 6,
       "value": "0xde01"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "BooleanLiteral",
-      "offset": 7516,
+      "offset": 7543,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "Array",
-      "offset": 7551,
+      "offset": 7578,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 7597,
+      "offset": 7624,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 7601,
+      "offset": 7628,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "Array",
-      "offset": 8238,
+      "offset": 8265,
       "length": 202,
       "value": "[0x30, 0x56, 0x30, 0x10, 0x06, 0x07, 0x2a, 0x86, 0x48, 0xce, 0x3d, 0x02, 0x01, 0x06, 0x05, 0x2b, 0x81, 0x04, 0x00, 0x0a, 0x03, 0x42, 0x00]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "BooleanLiteral",
-      "offset": 8498,
+      "offset": 8525,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 8561,
+      "offset": 8588,
       "length": 2,
       "value": "23"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 8566,
+      "offset": 8593,
       "length": 2,
       "value": "87"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "BooleanLiteral",
-      "offset": 8745,
+      "offset": 8772,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "Array",
-      "offset": 8781,
+      "offset": 8808,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 8828,
+      "offset": 8855,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 8832,
+      "offset": 8859,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "Array",
-      "offset": 9147,
+      "offset": 9174,
       "length": 42,
       "value": "[0x30, 0x74, 0x02, 0x01, 0x01, 0x04, 0x20]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "BooleanLiteral",
-      "offset": 9247,
+      "offset": 9274,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "StringLiteral",
-      "offset": 9276,
+      "offset": 9303,
       "length": 11,
       "value": "\"preString\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 9454,
+      "offset": 9481,
       "length": 2,
       "value": "39"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 9459,
+      "offset": 9486,
       "length": 2,
       "value": "52"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "Array",
-      "offset": 9947,
+      "offset": 9974,
       "length": 107,
       "value": "[0xa0, 0x07, 0x06, 0x05, 0x2b, 0x81, 0x04, 0x00, 0x0a, 0xa1, 0x44, 0x03, 0x42, 0x00]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "BooleanLiteral",
-      "offset": 10120,
+      "offset": 10147,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "StringLiteral",
-      "offset": 10153,
+      "offset": 10180,
       "length": 11,
       "value": "\"midString\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 10341,
+      "offset": 10368,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 10345,
+      "offset": 10372,
       "length": 2,
       "value": "38"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "StringLiteral",
-      "offset": 10393,
+      "offset": 10420,
       "length": 20,
       "value": "\"result = \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "StringLiteral",
-      "offset": 10412,
+      "offset": 10439,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "StringLiteral",
-      "offset": 10721,
+      "offset": 10748,
       "length": 2,
       "value": "\"\""
     },
@@ -12268,7 +10743,7 @@
     {
       "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/Bkey-frxdjbcpwrmqbubymbieatvgvpyz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Bkey\/IntermediateBuildFilesPath\/Bkey.build\/Release-iphoneos\/Bkey.build\/DerivedSources\/CoreDataGenerated\/PublicKeyStoreDataModel\/PublicKey+CoreDataProperties.swift",
       "kind": "StringLiteral",
-      "offset": 353,
+      "offset": 354,
       "length": 11,
       "value": "\"PublicKey\""
     }

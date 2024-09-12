@@ -44,40 +44,6 @@ public enum BkeyException : Swift.Error {
   case FrameworkError(Swift.String)
 }
 
-public let IDKEY_MODE_AUX_DATA: Swift.UInt16
-public let IDKEY_MODE_FACE: Swift.UInt16
-public let IDKEY_VENDOR_BKEYIF_0_1_0: Swift.UInt16
-public let IDKEY_TYPE_NUMERIC: Swift.UInt16
-public let IDKEY_TYPE_HEXUPPER: Swift.UInt16
-public let IDKEY_TYPE_HEXLOWER: Swift.UInt16
-public let IDKEY_TYPE_ALPHA_NUMERIC: Swift.UInt16
-public let IDKEY_TYPE_SPECIAL_ALPHA_NUMERIC: Swift.UInt16
-public let IDKEY_TYPE_CUSTOM_ALPHABET: Swift.UInt16
-public let IDKEY_TYPE_PI_KEY: Swift.UInt16
-public let IDKEY_TYPE_BIPS0039_KEYWORD: Swift.UInt16
-public let IDKEY_TYPE_AES_KEY: Swift.UInt16
-public let IDKEY_TYPE_RSA_PUBLIC_KEY: Swift.UInt16
-public let IDKEY_TYPE_RSA_PRIVATE_KEY: Swift.UInt16
-public let IDKEY_TYPE_EC_PUBLIC_KEY: Swift.UInt16
-public let IDKEY_TYPE_EC_PRIVATE_KEY: Swift.UInt16
-public let IDKEY_BIPS0032_PUBLIC_KEY_TYPE: Swift.UInt16
-public let IDKEY_BIPS0032_PRIVATE_KEY_TYPE: Swift.UInt16
-public let IDKEY_BIPS0032_KEY_PAIR_TYPE: Swift.UInt16
-public let IDKEY_BIPS0032_P2PKH_ADDRESS: Swift.UInt16
-public let IDKEY_BIP32_BINARY_FORMAT: Swift.UInt16
-public let IDKEY_BIP32_BASE58_FORMAT: Swift.UInt16
-public let IDKEY_ALPHABET_CHARACTER: Swift.UInt8
-public let IDKEY_BIP0039_KEYWORD: Swift.UInt16
-public let IDKEY_NO_BINDING: Swift.UInt16
-public let IDKEY_BIP0039_12KEYWORDS: Swift.UInt16
-public let IDKEY_BIP0039_15KEYWORDS: Swift.UInt16
-public let IDKEY_BIP0039_18KEYWORDS: Swift.UInt16
-public let IDKEY_BIP0039_21KEYWORDS: Swift.UInt16
-public let IDKEY_BIP0039_24KEYWORDS: Swift.UInt16
-public let IDKEY_MAX_NUM_AUX_KEYS: Swift.UInt16
-public let IDKEY_NEW_BINDINGS: Swift.UInt16
-public let IDKEY_APPEND_BINDINGS: Swift.UInt16
-public let IDKEY_DELETE_BINDINGS: Swift.UInt16
 public enum ModeData {
   case AuxData(auxType: Swift.UInt16, data: [Swift.UInt8])
   case FaceData(vendor: Swift.UInt16, numSamples: Swift.UInt8, features: [Swift.Float])
@@ -86,10 +52,11 @@ public enum ModeData {
   }
 }
 @_hasMissingDesignatedInitializers public class Bkey {
+  public static let shared: Bkey.Bkey
   @objc deinit
 }
 extension Bkey.Bkey {
-  public func Initialize(clientId: Swift.String, clientSecret: Swift.String)
+  public func Test()
 }
 @_inheritsConvenienceInitializers @objc(PublicKey) public class PublicKey : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
