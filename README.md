@@ -113,7 +113,7 @@ do {
 ## Roadmap
 
 - [X] Authentication 
-- [ ] Biometrically encrypt and decrypt data
+- [X] Biometrically encrypt and decrypt data
 - [ ] Biometrically sign and verify data
 - [ ] Biometric key generation
 - [ ] Recovery as a service

@@ -1382,8 +1382,7 @@
             "mangledName": "$s4Bkey7BkeyiOSC6Enroll8deviceId8password8callbackQrSS_SSySays5UInt8VGctF",
             "moduleName": "Bkey",
             "declAttributes": [
-              "Custom",
-              "RawDocComment"
+              "Custom"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -1453,6 +1452,126 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "EncryptString",
+            "printedName": "EncryptString(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4Bkey7BkeyiOSC13EncryptString5valueS2S_tKF",
+            "mangledName": "$s4Bkey7BkeyiOSC13EncryptString5valueS2S_tKF",
+            "moduleName": "Bkey",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "DecryptString",
+            "printedName": "DecryptString(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4Bkey7BkeyiOSC13DecryptString5valueS2S_tKF",
+            "mangledName": "$s4Bkey7BkeyiOSC13DecryptString5valueS2S_tKF",
+            "moduleName": "Bkey",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "EncryptData",
+            "printedName": "EncryptData(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4Bkey7BkeyiOSC11EncryptData4dataSays5UInt8VG10Foundation0E0V_tKF",
+            "mangledName": "$s4Bkey7BkeyiOSC11EncryptData4dataSays5UInt8VG10Foundation0E0V_tKF",
+            "moduleName": "Bkey",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "DecryptData",
+            "printedName": "DecryptData(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4Bkey7BkeyiOSC11DecryptData4dataSays5UInt8VG10Foundation0E0V_tKF",
+            "mangledName": "$s4Bkey7BkeyiOSC11DecryptData4dataSays5UInt8VG10Foundation0E0V_tKF",
+            "moduleName": "Bkey",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -1460,8 +1579,7 @@
         "mangledName": "$s4Bkey7BkeyiOSC",
         "moduleName": "Bkey",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "hasMissingDesignatedInitializers": true
       },
@@ -2785,14 +2903,14 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/EnrollView.swift",
       "kind": "StringLiteral",
-      "offset": 806,
+      "offset": 1009,
       "length": 19,
       "value": "\"Enrollment failed\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/EnrollView.swift",
       "kind": "StringLiteral",
-      "offset": 894,
+      "offset": 1097,
       "length": 18,
       "value": "\"Enrollment Error\""
     },
@@ -3478,7 +3596,7 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/VerifyView.swift",
       "kind": "StringLiteral",
-      "offset": 823,
+      "offset": 1068,
       "length": 20,
       "value": "\"Verification Error\""
     },
@@ -9874,6 +9992,181 @@
       "value": "1"
     },
     {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1142,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1834,
+      "length": 6,
+      "value": "\"%02X\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1865,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1945,
+      "length": 36,
+      "value": "\"Verification failed for public key\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 2421,
+      "length": 36,
+      "value": "\"Verification failed for public key\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 2838,
+      "length": 6,
+      "value": "\"%02X\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 2869,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 2949,
+      "length": 37,
+      "value": "\"Verification failed for private key\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 3428,
+      "length": 37,
+      "value": "\"Verification failed for private key\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3779,
+      "length": 3,
+      "value": "128"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 3966,
+      "length": 37,
+      "value": "\"Verification failed for aes 128 key\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4316,
+      "length": 3,
+      "value": "192"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 4390,
+      "length": 6,
+      "value": "\"%02X\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 4421,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 4501,
+      "length": 37,
+      "value": "\"Verification failed for aes 192 key\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4852,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 5066,
+      "length": 37,
+      "value": "\"Verification failed for aes 256 key\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5185,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 5686,
+      "length": 42,
+      "value": "\"Verification failed for alphanumeric key\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5805,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 6300,
+      "length": 37,
+      "value": "\"Verification failed for numeric key\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6426,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 6935,
+      "length": 51,
+      "value": "\"Verification failed for special alpha numeric key\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7068,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BKeyUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 7564,
+      "length": 51,
+      "value": "\"Verification failed for special alpha numeric key\""
+    },
+    {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/CustomCameraController.swift",
       "kind": "BooleanLiteral",
       "offset": 306,
@@ -10446,6 +10739,20 @@
       "offset": 20723,
       "length": 2,
       "value": "18"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 685,
+      "length": 22,
+      "value": "\"Initialization error\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1796,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/secp256k1_Swift\/Digest.swift",
