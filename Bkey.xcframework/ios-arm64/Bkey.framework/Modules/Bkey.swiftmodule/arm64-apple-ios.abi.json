@@ -1334,23 +1334,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "_ConditionalContent",
-                "printedName": "SwiftUI._ConditionalContent<SwiftUI.EmptyView, Bkey.EnrollView>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EmptyView",
-                    "printedName": "SwiftUI.EmptyView",
-                    "usr": "s:7SwiftUI9EmptyViewV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EnrollView",
-                    "printedName": "Bkey.EnrollView",
-                    "usr": "s:4Bkey10EnrollViewV"
-                  }
-                ],
-                "usr": "s:7SwiftUI19_ConditionalContentV"
+                "name": "EnrollView",
+                "printedName": "Bkey.EnrollView",
+                "usr": "s:4Bkey10EnrollViewV"
               },
               {
                 "kind": "TypeNominal",
@@ -1392,15 +1378,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:4Bkey7BkeyiOSC6Enroll8deviceId8password8callbackQrSS_SSySays5UInt8VGctKF",
-            "mangledName": "$s4Bkey7BkeyiOSC6Enroll8deviceId8password8callbackQrSS_SSySays5UInt8VGctKF",
+            "usr": "s:4Bkey7BkeyiOSC6Enroll8deviceId8password8callbackQrSS_SSySays5UInt8VGctF",
+            "mangledName": "$s4Bkey7BkeyiOSC6Enroll8deviceId8password8callbackQrSS_SSySays5UInt8VGctF",
             "moduleName": "Bkey",
             "declAttributes": [
               "Custom",
               "RawDocComment"
             ],
             "isFromExtension": true,
-            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -1410,23 +1395,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "_ConditionalContent",
-                "printedName": "SwiftUI._ConditionalContent<SwiftUI.EmptyView, Bkey.VerifyView>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "EmptyView",
-                    "printedName": "SwiftUI.EmptyView",
-                    "usr": "s:7SwiftUI9EmptyViewV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "VerifyView",
-                    "printedName": "Bkey.VerifyView",
-                    "usr": "s:4Bkey10VerifyViewV"
-                  }
-                ],
-                "usr": "s:7SwiftUI19_ConditionalContentV"
+                "name": "VerifyView",
+                "printedName": "Bkey.VerifyView",
+                "usr": "s:4Bkey10VerifyViewV"
               },
               {
                 "kind": "TypeNominal",
@@ -1474,14 +1445,13 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:4Bkey7BkeyiOSC6Verify8deviceId8password7bioHash8callbackQrSS_SSSays5UInt8VGySbctKF",
-            "mangledName": "$s4Bkey7BkeyiOSC6Verify8deviceId8password7bioHash8callbackQrSS_SSSays5UInt8VGySbctKF",
+            "usr": "s:4Bkey7BkeyiOSC6Verify8deviceId8password7bioHash8callbackQrSS_SSSays5UInt8VGySbctF",
+            "mangledName": "$s4Bkey7BkeyiOSC6Verify8deviceId8password7bioHash8callbackQrSS_SSSays5UInt8VGySbctF",
             "moduleName": "Bkey",
             "declAttributes": [
               "Custom"
             ],
             "isFromExtension": true,
-            "throwing": true,
             "funcSelfKind": "NonMutating"
           }
         ],
