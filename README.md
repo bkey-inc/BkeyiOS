@@ -98,7 +98,7 @@ do {
     print("Encrypted Data: \(encryptedData)")
     
     // Decrypt the data
-    let decryptedData = try bkeySDK.DecryptData(data: encryptedData)
+    let decryptedData = try bkeySDK.DecryptData(data: Data(encryptedData))
     let decryptedString = String(decoding: decryptedData, as: UTF8.self)
     print("Decrypted Data: \(decryptedString)")
 } catch {
