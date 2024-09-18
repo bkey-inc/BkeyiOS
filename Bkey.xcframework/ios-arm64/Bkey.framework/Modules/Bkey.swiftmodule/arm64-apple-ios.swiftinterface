@@ -38,7 +38,7 @@ public enum NFCCardException : Swift.Error {
   case OperationCanceled
 }
 public enum BkeyException : Swift.Error {
-  case SdkNotInitialized
+  case CredentialsNotSet
   case NoBiometricsPresent
   case EnrollmentFailed(Swift.String)
   case FrameworkError(Swift.String)
@@ -56,24 +56,53 @@ public enum ModeData {
   @objc deinit
 }
 extension Bkey.BkeyiOS {
+  public func SetCredentials(clientId: Swift.String, clientSecret: Swift.String)
   public func Enroll(deviceId: Swift.String, password: Swift.String, callback: @escaping ([Swift.UInt8]) -> Swift.Void) -> some SwiftUI.View
   
   public func Verify(deviceId: Swift.String, password: Swift.String, bioHash: [Swift.UInt8], callback: @escaping (Swift.Bool) -> Swift.Void) -> some SwiftUI.View
   
-  public func EncryptString(value: Swift.String) throws -> Swift.String
-  public func DecryptString(value: Swift.String) throws -> Swift.String
-  public func EncryptData(data: Foundation.Data) throws -> [Swift.UInt8]
-  public func DecryptData(data: Foundation.Data) throws -> [Swift.UInt8]
-  public func SignString(value: Swift.String) throws -> Foundation.Data
-  public func VerifyStringSignature(value: Swift.String, signature: Foundation.Data, publicKey: [Swift.UInt8]) throws -> Swift.Bool
-  public func SignData(data: Foundation.Data) throws -> Foundation.Data
-  public func VerifyDataSignature(data: Foundation.Data, signature: Foundation.Data, publicKey: [Swift.UInt8]) throws -> Swift.Bool
-  public func CreatePublicKey() throws -> [Swift.UInt8]
-  public func CreatePrivateKey() throws -> [Swift.UInt8]
-  public func CreateAes128Key() throws -> [Swift.UInt8]
-  public func CreateAes256Key() throws -> [Swift.UInt8]
-  public func CreateAlphaNumeric(size: Swift.UInt32) throws -> Swift.String
-  public func RecoveryEnroll(recoveryId: Swift.String?, recoveryPassword: Swift.String?, includeFace: Swift.Bool = true, numShares: Swift.UInt16, threshold: Swift.UInt16) throws -> ([Swift.String], Swift.String, Swift.String)
+  #if compiler(>=5.3) && $AsyncAwait
+  public func EncryptString(value: Swift.String) async throws -> Swift.String
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func DecryptString(value: Swift.String) async throws -> Swift.String
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func EncryptData(data: Foundation.Data) async throws -> [Swift.UInt8]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func DecryptData(data: Foundation.Data) async throws -> [Swift.UInt8]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func SignString(value: Swift.String) async throws -> Foundation.Data
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func VerifyStringSignature(value: Swift.String, signature: Foundation.Data, publicKey: [Swift.UInt8]) async throws -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func SignData(data: Foundation.Data) async throws -> Foundation.Data
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func VerifyDataSignature(data: Foundation.Data, signature: Foundation.Data, publicKey: [Swift.UInt8]) async throws -> Swift.Bool
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func CreatePublicKey() async throws -> [Swift.UInt8]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func CreatePrivateKey() async throws -> [Swift.UInt8]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func CreateAes128Key() async throws -> [Swift.UInt8]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func CreateAes256Key() async throws -> [Swift.UInt8]
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func CreateAlphaNumeric(size: Swift.UInt32) async throws -> Swift.String
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func RecoveryEnroll(recoveryId: Swift.String?, recoveryPassword: Swift.String?, includeFace: Swift.Bool = true, numShares: Swift.UInt16, threshold: Swift.UInt16) async throws -> ([Swift.String], Swift.String, Swift.String)
+  #endif
   public func Recover(newDeviceId: Swift.String, newPassword: Swift.String, recoveryId: Swift.String?, recoveryPassword: Swift.String?, includeFace: Swift.Bool = true, shares: [Swift.String], keySeedDelta: Swift.String, callback: @escaping ([Swift.UInt8]) -> Swift.Void) -> some SwiftUI.View
   
 }
