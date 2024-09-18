@@ -10993,7 +10993,7 @@
       "kind": "IntegerLiteral",
       "offset": 4463,
       "length": 6,
-      "value": "0xde00"
+      "value": "0xde01"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
@@ -11259,33 +11259,33 @@
       "kind": "IntegerLiteral",
       "offset": 2228,
       "length": 6,
-      "value": "0xde00"
+      "value": "0xde01"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
       "kind": "StringLiteral",
-      "offset": 2741,
+      "offset": 2670,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3079,
+      "offset": 3008,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
       "kind": "StringLiteral",
-      "offset": 3230,
+      "offset": 3159,
       "length": 29,
       "value": "\"Shares provided are invalid\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
       "kind": "StringLiteral",
-      "offset": 3328,
+      "offset": 3257,
       "length": 16,
       "value": "\"Recovery Error\""
     },
