@@ -32,7 +32,20 @@ As digital platforms become central to our lives, the need for biometric authent
 
 ### Prerequisites
 
-Add the sdk to your application using SPM then access the shared BkeyiOS class at any point in your application.
+Add the sdk to your application using SPM.
+
+Gain sdk access through a post request to: 
+```sh
+https://dev_api.davidpettey.com/authentication/v1/register
+With a body field for name of your organization
+
+Response will be in the form:{
+    "clientId": "x-x-x-x-x",
+    "clientSecret": "x-x-x-x-x"
+}
+
+You then need to reach out to activate the account. 
+```
 
 ### Usage
 
@@ -44,7 +57,14 @@ Add the sdk to your application using SPM then access the shared BkeyiOS class a
    ```
 <br>
 
-2. Enroll a user. 
+2. Set credentials
+  ```sh
+  bkeySDK.SetCredentials(clientId:String, clientSecret:String)
+  ```
+
+<br>
+
+3. Enroll a user. 
    ```sh
    import SwiftUI
 
@@ -58,7 +78,7 @@ Add the sdk to your application using SPM then access the shared BkeyiOS class a
    ```
 <br>
 
-3. Verify a user.
+4. Verify a user.
    ```sh
    import SwiftUI
 
@@ -221,5 +241,5 @@ let (shares, ksDelta, piRef) = try await BkeyiOS.shared.RecoveryEnroll(recoveryI
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Bugs / Requests
-Email: david@bkey.me
+## Bugs / Feature Requests
+Email: david.pettey@bkey.me
