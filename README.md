@@ -147,35 +147,35 @@ Task{
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### Create Keys
+## Create Keys
 
-## Public Key
+### Public Key
 ```sh
     let key = try await BkeyiOS.shared.CreatePublicKey()
     print("Public Key:",key)
 ```
 
-## Private Key
+### Private Key
 ```sh
     let key = try await BkeyiOS.shared.CreatePrivateKey()
     print("Private Key:",key)
 ```
 
-## AES 128
+### AES 128
 ```sh
   let key = try await BkeyiOS.shared.CreateAes128Key()
   print("Aes 128 Key:",key)
   return key
 ```
 
-## AES 256
+### AES 256
 ```sh
   let key = try await BkeyiOS.shared.CreateAes256Key()
   print("Aes 256 Key:",key)
   return key
 ```
 
-## Alphanumeric
+### Alphanumeric
 ```sh
   let key = try await BkeyiOS.shared.CreateAlphaNumeric(size: 32)
   print("Alphanumeric Key:",key)
@@ -184,13 +184,13 @@ Task{
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Create Recovery Template
+### Create Recovery Template
 ```sh
 let (shares, ksDelta, piRef) = try await BkeyiOS.shared.RecoveryEnroll(recoveryId: "recovery id", recoveryPassword: "recovery password", includeFace: true, numShares: 3, threshold: 2)
 
 ```
 
-## Recover Template
+### Recover Template
    ```sh
    import SwiftUI
 
