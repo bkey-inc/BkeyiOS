@@ -64,6 +64,15 @@ extension Bkey.BkeyiOS {
   public func DecryptString(value: Swift.String) throws -> Swift.String
   public func EncryptData(data: Foundation.Data) throws -> [Swift.UInt8]
   public func DecryptData(data: Foundation.Data) throws -> [Swift.UInt8]
+  public func SignString(value: Swift.String) throws -> Foundation.Data
+  public func VerifyStringSignature(value: Swift.String, signature: Foundation.Data, publicKey: [Swift.UInt8]) throws -> Swift.Bool
+  public func SignData(data: Foundation.Data) throws -> Foundation.Data
+  public func VerifyDataSignature(data: Foundation.Data, signature: Foundation.Data, publicKey: [Swift.UInt8]) throws -> Swift.Bool
+  public func CreatePublicKey() throws -> [Swift.UInt8]
+  public func CreatePrivateKey() throws -> [Swift.UInt8]
+  public func CreateAes128Key() throws -> [Swift.UInt8]
+  public func CreateAes256Key() throws -> [Swift.UInt8]
+  public func CreateAlphaNumeric(size: Swift.UInt32) throws -> Swift.String
   public func RecoveryEnroll(recoveryId: Swift.String?, recoveryPassword: Swift.String?, includeFace: Swift.Bool = true, numShares: Swift.UInt16, threshold: Swift.UInt16) throws -> ([Swift.String], Swift.String, Swift.String)
   public func Recover(newDeviceId: Swift.String, newPassword: Swift.String, recoveryId: Swift.String?, recoveryPassword: Swift.String?, includeFace: Swift.Bool = true, shares: [Swift.String], keySeedDelta: Swift.String, callback: @escaping ([Swift.UInt8]) -> Swift.Void) -> some SwiftUI.View
   
