@@ -32,7 +32,20 @@ As digital platforms become central to our lives, the need for biometric authent
 
 ### Prerequisites
 
-Add the sdk to your application using SPM then access the shared BkeyiOS class at any point in your application.
+Add the sdk to your application using SPM.
+
+Gain sdk access through a post request to: 
+```sh
+https://dev_api.davidpettey.com/authentication/v1/register
+With a body field for name of your organization
+
+Response will be in the form:{
+    "clientId": "x-x-x-x-x",
+    "clientSecret": "x-x-x-x-x"
+}
+
+You then need to reach out to activate the account. 
+```
 
 ### Usage
 
@@ -44,7 +57,14 @@ Add the sdk to your application using SPM then access the shared BkeyiOS class a
    ```
 <br>
 
-2. Enroll a user. 
+2. Set credentials
+  ```sh
+  bkeySDK.SetCredentials(clientId:String, clientSecret:String)
+  ```
+
+<br>
+
+3. Enroll a user. 
    ```sh
    import SwiftUI
 
@@ -58,7 +78,7 @@ Add the sdk to your application using SPM then access the shared BkeyiOS class a
    ```
 <br>
 
-3. Verify a user.
+4. Verify a user.
    ```sh
    import SwiftUI
 
@@ -74,7 +94,7 @@ Add the sdk to your application using SPM then access the shared BkeyiOS class a
 
 After a user is enrolled or verified. Functionality opens up to be able to perform actions with the biometrics that the user has just presented. 
 
-### Encrypt / Decrypt strings 
+### Encrypt / Decrypt String
 ```sh
 do {
     // Encrypt a string
@@ -109,16 +129,117 @@ do {
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+### Sign / Verify String
+```sh
+Task{
+    do {
+        let signature = try await BkeyiOS.shared.SignString(value: "Hello, World!")
+        print("Signed String: \(signature)")
+        
+        let publicKey = await CreatePublicKey() // replace with other public key if needed
+        
+        let isVerified = try await BkeyiOS.shared.VerifyStringSignature(value: "Hello, World!", signature: signature, publicKey: publicKey)
+        print("Signature Verified:",isVerified)
+    } catch {
+        print("Sign/Verify Error: \(error)")
+    }
+}
+```
+
+### Sign / Verify Data
+```sh
+Task{
+    do {
+        let dataToSign = "Hello, World!".data(using: .utf8)!
+        let signature = try await BkeyiOS.shared.SignData(data: dataToSign)
+        print("Signed Data: \(signature)")
+        
+        let publicKey = await CreatePublicKey() // replace with other public key if needed
+        
+        let isVerified = try await BkeyiOS.shared.VerifyDataSignature(data: dataToSign, signature: signature, publicKey: publicKey)
+        print("Signature Verified:",isVerified)
+    } catch {
+        print("Sign/Verify Error: \(error)")
+    }
+}
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Create Keys
+
+### Public Key
+```sh
+    let key = try await BkeyiOS.shared.CreatePublicKey()
+    print("Public Key:",key)
+```
+
+### Private Key
+```sh
+    let key = try await BkeyiOS.shared.CreatePrivateKey()
+    print("Private Key:",key)
+```
+
+### AES 128
+```sh
+  let key = try await BkeyiOS.shared.CreateAes128Key()
+  print("Aes 128 Key:",key)
+  return key
+```
+
+### AES 256
+```sh
+  let key = try await BkeyiOS.shared.CreateAes256Key()
+  print("Aes 256 Key:",key)
+  return key
+```
+
+### Alphanumeric
+```sh
+  let key = try await BkeyiOS.shared.CreateAlphaNumeric(size: 32)
+  print("Alphanumeric Key:",key)
+  return key
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Create Recovery Template
+```sh
+let (shares, ksDelta, piRef) = try await BkeyiOS.shared.RecoveryEnroll(recoveryId: "recovery id", recoveryPassword: "recovery password", includeFace: true, numShares: 3, threshold: 2)
+
+```
+
+### Recover Template
+   ```sh
+   import SwiftUI
+
+   let shares:[String] = ["1", "2", "3]
+   let keySeedDelta:String = "fix me"
+
+   struct ContentView: View {
+        var body: some View {
+          bkeySDK.Recover(newDeviceId: "new id", newPassword: "new password", recoveryId: "recovery id", recoveryPassword: "recovery password", includeFace: true, shares:shares, keySeedDelta: keySeedDelta, callback: { bioHash in
+                print("Account recovered:")
+                print(bioHash)
+            })
+        }
+   }
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- ROADMAP -->
 ## Roadmap
 
 - [X] Authentication 
 - [X] Biometrically encrypt and decrypt data
-- [ ] Biometrically sign and verify data
-- [ ] Biometric key generation
-- [ ] Recovery as a service
+- [X] Biometrically sign and verify data
+- [X] Biometric key generation
+- [X] Recovery as a service
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
+## Bugs / Feature Requests
+Email: david.pettey@bkey.me
