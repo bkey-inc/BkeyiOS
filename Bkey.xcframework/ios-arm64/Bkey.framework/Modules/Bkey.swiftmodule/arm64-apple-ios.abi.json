@@ -565,16 +565,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "Bkey",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1569,6 +1559,233 @@
             "usr": "s:4Bkey7BkeyiOSC11DecryptData4dataSays5UInt8VG10Foundation0E0V_tKF",
             "mangledName": "$s4Bkey7BkeyiOSC11DecryptData4dataSays5UInt8VG10Foundation0E0V_tKF",
             "moduleName": "Bkey",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "RecoveryEnroll",
+            "printedName": "RecoveryEnroll(recoveryId:recoveryPassword:includeFace:numShares:threshold:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.String], Swift.String, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "([Swift.String], Swift.String, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4Bkey7BkeyiOSC14RecoveryEnroll10recoveryId0F8Password11includeFace9numShares9threshold8callbackySSSg_AKSbs6UInt16VAMySaySSG_S2StctKF",
+            "mangledName": "$s4Bkey7BkeyiOSC14RecoveryEnroll10recoveryId0F8Password11includeFace9numShares9threshold8callbackySSSg_AKSbs6UInt16VAMySaySSG_S2StctKF",
+            "moduleName": "Bkey",
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "Recover",
+            "printedName": "Recover(newDeviceId:newPassword:recoveryId:recoveryPassword:includeFace:shares:keySeedDelta:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RecoverView",
+                "printedName": "Bkey.RecoverView",
+                "usr": "s:4Bkey11RecoverViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.UInt8]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.UInt8]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt8",
+                        "printedName": "Swift.UInt8",
+                        "usr": "s:s5UInt8V"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4Bkey7BkeyiOSC7Recover11newDeviceId0E8Password08recoveryG00iH011includeFace6shares12keySeedDelta8callbackQrSS_S2SSgAMSbSaySSGSSySays5UInt8VGctKF",
+            "mangledName": "$s4Bkey7BkeyiOSC7Recover11newDeviceId0E8Password08recoveryG00iH011includeFace6shares12keySeedDelta8callbackQrSS_S2SSgAMSbSaySSGSSySays5UInt8VGctKF",
+            "moduleName": "Bkey",
+            "declAttributes": [
+              "Custom"
+            ],
             "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -2913,13 +3130,6 @@
       "offset": 1097,
       "length": 18,
       "value": "\"Enrollment Error\""
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/EnrollRecoveryView.swift",
-      "kind": "StringLiteral",
-      "offset": 198,
-      "length": 15,
-      "value": "\"Hello, World!\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/secp256k1_Swift\/ECDSA.swift",
@@ -9434,196 +9644,196 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 6908,
+      "offset": 6915,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 7018,
+      "offset": 7025,
       "length": 6,
       "value": "0xde00"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 7170,
+      "offset": 7177,
       "length": 6,
       "value": "0xde01"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "BooleanLiteral",
-      "offset": 7543,
+      "offset": 7550,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "Array",
-      "offset": 7578,
+      "offset": 7585,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 7624,
+      "offset": 7631,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 7628,
+      "offset": 7635,
       "length": 2,
       "value": "22"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "Array",
-      "offset": 8265,
+      "offset": 8272,
       "length": 202,
       "value": "[0x30, 0x56, 0x30, 0x10, 0x06, 0x07, 0x2a, 0x86, 0x48, 0xce, 0x3d, 0x02, 0x01, 0x06, 0x05, 0x2b, 0x81, 0x04, 0x00, 0x0a, 0x03, 0x42, 0x00]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "BooleanLiteral",
-      "offset": 8525,
+      "offset": 8532,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 8588,
+      "offset": 8595,
       "length": 2,
       "value": "23"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 8593,
+      "offset": 8600,
       "length": 2,
       "value": "87"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "BooleanLiteral",
-      "offset": 8772,
+      "offset": 8779,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "Array",
-      "offset": 8808,
+      "offset": 8815,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 8855,
+      "offset": 8862,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 8859,
+      "offset": 8866,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "Array",
-      "offset": 9174,
+      "offset": 9181,
       "length": 42,
       "value": "[0x30, 0x74, 0x02, 0x01, 0x01, 0x04, 0x20]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "BooleanLiteral",
-      "offset": 9274,
+      "offset": 9281,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "StringLiteral",
-      "offset": 9303,
+      "offset": 9310,
       "length": 11,
       "value": "\"preString\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 9481,
+      "offset": 9488,
       "length": 2,
       "value": "39"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 9486,
+      "offset": 9493,
       "length": 2,
       "value": "52"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "Array",
-      "offset": 9974,
+      "offset": 9981,
       "length": 107,
       "value": "[0xa0, 0x07, 0x06, 0x05, 0x2b, 0x81, 0x04, 0x00, 0x0a, 0xa1, 0x44, 0x03, 0x42, 0x00]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "BooleanLiteral",
-      "offset": 10147,
+      "offset": 10154,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "StringLiteral",
-      "offset": 10180,
+      "offset": 10187,
       "length": 11,
       "value": "\"midString\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 10368,
+      "offset": 10375,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "IntegerLiteral",
-      "offset": 10372,
+      "offset": 10379,
       "length": 2,
       "value": "38"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "StringLiteral",
-      "offset": 10420,
+      "offset": 10427,
       "length": 20,
       "value": "\"result = \""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "StringLiteral",
-      "offset": 10439,
+      "offset": 10446,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BioHASH.swift",
       "kind": "StringLiteral",
-      "offset": 10748,
+      "offset": 10755,
       "length": 2,
       "value": "\"\""
     },
@@ -9757,15 +9967,15 @@
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Config\/ApplicationConfig.swift",
       "kind": "StringLiteral",
       "offset": 1071,
-      "length": 30,
-      "value": "\"https:\/\/api.davidpettey.com\/\""
+      "length": 34,
+      "value": "\"https:\/\/dev_api.davidpettey.com\/\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Config\/ApplicationConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1155,
-      "length": 24,
-      "value": "\"http:\/\/localhost:3000\/\""
+      "offset": 1159,
+      "length": 33,
+      "value": "\"http:\/\/dev_api.davidpettey.com\/\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/secp256k1_Swift\/SecureBytes.swift",
@@ -10755,6 +10965,97 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3065,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3352,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 3413,
+      "length": 51,
+      "value": "\"At least 1 element must be present for enrollment\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
+      "kind": "Array",
+      "offset": 3837,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4005,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4207,
+      "length": 6,
+      "value": "0xde00"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4490,
+      "length": 6,
+      "value": "0xde00"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4995,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 5244,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
+      "kind": "Array",
+      "offset": 5266,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 5350,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 5429,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5663,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/secp256k1_Swift\/Digest.swift",
       "kind": "IntegerLiteral",
       "offset": 1904,
@@ -10925,9 +11226,79 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
       "kind": "StringLiteral",
-      "offset": 184,
-      "length": 15,
-      "value": "\"Hello, World!\""
+      "offset": 616,
+      "length": 19,
+      "value": "\"Enrolling user...\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
+      "kind": "Array",
+      "offset": 726,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1208,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
+      "kind": "Array",
+      "offset": 1453,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1633,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1842,
+      "length": 6,
+      "value": "0xde00"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2149,
+      "length": 6,
+      "value": "0xde00"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
+      "kind": "StringLiteral",
+      "offset": 2662,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3000,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
+      "kind": "StringLiteral",
+      "offset": 3151,
+      "length": 29,
+      "value": "\"Shares provided are invalid\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
+      "kind": "StringLiteral",
+      "offset": 3249,
+      "length": 16,
+      "value": "\"Recovery Error\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/PICCSdk\/TLSdk.swift",

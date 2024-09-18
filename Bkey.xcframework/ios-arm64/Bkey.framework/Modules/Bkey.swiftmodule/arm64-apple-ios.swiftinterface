@@ -64,6 +64,9 @@ extension Bkey.BkeyiOS {
   public func DecryptString(value: Swift.String) throws -> Swift.String
   public func EncryptData(data: Foundation.Data) throws -> [Swift.UInt8]
   public func DecryptData(data: Foundation.Data) throws -> [Swift.UInt8]
+  public func RecoveryEnroll(recoveryId: Swift.String?, recoveryPassword: Swift.String?, includeFace: Swift.Bool = true, numShares: Swift.UInt16, threshold: Swift.UInt16, callback: @escaping ([Swift.String], Swift.String, Swift.String) -> Swift.Void) throws
+  public func Recover(newDeviceId: Swift.String, newPassword: Swift.String, recoveryId: Swift.String?, recoveryPassword: Swift.String?, includeFace: Swift.Bool = true, shares: [Swift.String], keySeedDelta: Swift.String, callback: @escaping ([Swift.UInt8]) -> Swift.Void) throws -> some SwiftUI.View
+  
 }
 @_inheritsConvenienceInitializers @objc(PublicKey) public class PublicKey : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
