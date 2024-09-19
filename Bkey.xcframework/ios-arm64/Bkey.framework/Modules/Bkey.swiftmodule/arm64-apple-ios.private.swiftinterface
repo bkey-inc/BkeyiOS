@@ -103,8 +103,9 @@ extension Bkey.BkeyiOS {
   #if compiler(>=5.3) && $AsyncAwait
   public func RecoveryEnroll(recoveryId: Swift.String?, recoveryPassword: Swift.String?, includeFace: Swift.Bool = true, numShares: Swift.UInt16, threshold: Swift.UInt16) async throws -> ([Swift.String], Swift.String, Swift.String)
   #endif
-  public func Recover(newDeviceId: Swift.String, newPassword: Swift.String, recoveryId: Swift.String?, recoveryPassword: Swift.String?, includeFace: Swift.Bool = true, shares: [Swift.String], keySeedDelta: Swift.String, callback: @escaping ([Swift.UInt8]) -> Swift.Void) -> some SwiftUI.View
+  public func GetRecoveryTemplateAndPIRef(recoveryId: Swift.String?, recoveryPassword: Swift.String?, includeFace: Swift.Bool = true, shares: [Swift.String], callback: @escaping ([Swift.UInt8], Swift.String) -> Swift.Void) -> some SwiftUI.View
   
+  public func Recover(newDeviceId: Swift.String, newPassword: Swift.String, includeFace: Swift.Bool = true, keySeedDelta: Swift.String, recoveryTemplate: [Swift.UInt8], callback: @escaping ([Swift.UInt8]) -> Swift.Void) throws
 }
 @_inheritsConvenienceInitializers @objc(PublicKey) public class PublicKey : CoreData.NSManagedObject {
   @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)

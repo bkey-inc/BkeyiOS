@@ -1971,26 +1971,14 @@
           },
           {
             "kind": "Function",
-            "name": "Recover",
-            "printedName": "Recover(newDeviceId:newPassword:recoveryId:recoveryPassword:includeFace:shares:keySeedDelta:callback:)",
+            "name": "GetRecoveryTemplateAndPIRef",
+            "printedName": "GetRecoveryTemplateAndPIRef(recoveryId:recoveryPassword:includeFace:shares:callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "RecoverView",
                 "printedName": "Bkey.RecoverView",
                 "usr": "s:4Bkey11RecoverViewV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -2042,10 +2030,103 @@
                 "usr": "s:Sa"
               },
               {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.UInt8], Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "([Swift.UInt8], Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.UInt8]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt8",
+                            "printedName": "Swift.UInt8",
+                            "usr": "s:s5UInt8V"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:4Bkey7BkeyiOSC27GetRecoveryTemplateAndPIRef10recoveryId0I8Password11includeFace6shares8callbackQrSSSg_AJSbSaySSGySays5UInt8VG_SStctF",
+            "mangledName": "$s4Bkey7BkeyiOSC27GetRecoveryTemplateAndPIRef10recoveryId0I8Password11includeFace6shares8callbackQrSSSg_AJSbSaySSGySays5UInt8VG_SStctF",
+            "moduleName": "Bkey",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "Recover",
+            "printedName": "Recover(newDeviceId:newPassword:includeFace:keySeedDelta:recoveryTemplate:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
                 "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.UInt8]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "usr": "s:Sa"
               },
               {
                 "kind": "TypeFunc",
@@ -2075,13 +2156,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:4Bkey7BkeyiOSC7Recover11newDeviceId0E8Password08recoveryG00iH011includeFace6shares12keySeedDelta8callbackQrSS_S2SSgAMSbSaySSGSSySays5UInt8VGctF",
-            "mangledName": "$s4Bkey7BkeyiOSC7Recover11newDeviceId0E8Password08recoveryG00iH011includeFace6shares12keySeedDelta8callbackQrSS_S2SSgAMSbSaySSGSSySays5UInt8VGctF",
+            "usr": "s:4Bkey7BkeyiOSC7Recover11newDeviceId0E8Password11includeFace12keySeedDelta16recoveryTemplate8callbackySS_SSSbSSSays5UInt8VGyAMctKF",
+            "mangledName": "$s4Bkey7BkeyiOSC7Recover11newDeviceId0E8Password11includeFace12keySeedDelta16recoveryTemplate8callbackySS_SSSbSSSays5UInt8VGyAMctKF",
             "moduleName": "Bkey",
-            "declAttributes": [
-              "Custom"
-            ],
             "isFromExtension": true,
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -11478,7 +11557,56 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 10852,
+      "offset": 10832,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11154,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
+      "kind": "Array",
+      "offset": 11299,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11455,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11646,
+      "length": 6,
+      "value": "0xde00"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11932,
+      "length": 6,
+      "value": "0xde01"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 12329,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12780,
       "length": 4,
       "value": "true"
     },
@@ -11541,35 +11669,35 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BkeyData.swift",
       "kind": "Array",
-      "offset": 291,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BkeyData.swift",
-      "kind": "StringLiteral",
-      "offset": 313,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BkeyData.swift",
-      "kind": "StringLiteral",
-      "offset": 335,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BkeyData.swift",
-      "kind": "Array",
       "offset": 356,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BkeyData.swift",
+      "kind": "StringLiteral",
+      "offset": 378,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BkeyData.swift",
+      "kind": "StringLiteral",
+      "offset": 400,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BkeyData.swift",
+      "kind": "Array",
+      "offset": 421,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/BkeyData.swift",
       "kind": "IntegerLiteral",
-      "offset": 436,
+      "offset": 501,
       "length": 1,
       "value": "0"
     },
@@ -11653,91 +11781,84 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
       "kind": "StringLiteral",
-      "offset": 616,
+      "offset": 522,
       "length": 19,
       "value": "\"Enrolling user...\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
       "kind": "StringLiteral",
-      "offset": 872,
+      "offset": 778,
       "length": 17,
       "value": "\"User Recovering\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
       "kind": "Array",
-      "offset": 989,
+      "offset": 1071,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
       "kind": "StringLiteral",
-      "offset": 1107,
+      "offset": 1189,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1590,
+      "offset": 1672,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
       "kind": "Array",
-      "offset": 1855,
+      "offset": 1937,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2047,
+      "offset": 2129,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2276,
+      "offset": 2380,
       "length": 6,
       "value": "0xde00"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2607,
+      "offset": 2738,
       "length": 6,
       "value": "0xde01"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
       "kind": "StringLiteral",
-      "offset": 3081,
+      "offset": 3209,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3435,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
       "kind": "StringLiteral",
-      "offset": 3627,
+      "offset": 3391,
       "length": 29,
       "value": "\"Shares provided are invalid\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Presentation\/RecoverView.swift",
       "kind": "StringLiteral",
-      "offset": 3741,
+      "offset": 3505,
       "length": 16,
       "value": "\"Recovery Error\""
     },
