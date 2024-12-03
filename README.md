@@ -204,31 +204,6 @@ Task{
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Create Recovery Template
-```sh
-let (shares, ksDelta, piRef) = try await BkeyiOS.shared.RecoveryEnroll(recoveryId: "recovery id", recoveryPassword: "recovery password", includeFace: true, numShares: 3, threshold: 2)
-
-```
-
-### Recover Template
-   ```sh
-   import SwiftUI
-
-   let shares:[String] = ["1", "2", "3]
-   let keySeedDelta:String = "fix me"
-
-   struct ContentView: View {
-        var body: some View {
-          bkeySDK.Recover(newDeviceId: "new id", newPassword: "new password", recoveryId: "recovery id", recoveryPassword: "recovery password", includeFace: true, shares:shares, keySeedDelta: keySeedDelta, callback: { bioHash in
-                print("Account recovered:")
-                print(bioHash)
-            })
-        }
-   }
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- ROADMAP -->
 ## Roadmap
 
@@ -236,7 +211,6 @@ let (shares, ksDelta, piRef) = try await BkeyiOS.shared.RecoveryEnroll(recoveryI
 - [X] Biometrically encrypt and decrypt data
 - [X] Biometrically sign and verify data
 - [X] Biometric key generation
-- [X] Recovery as a service
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
