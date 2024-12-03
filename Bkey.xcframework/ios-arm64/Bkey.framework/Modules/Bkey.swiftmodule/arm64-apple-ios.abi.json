@@ -9330,105 +9330,105 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 685,
+      "offset": 686,
       "length": 22,
       "value": "\"Initialization error\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 1774,
+      "offset": 1775,
       "length": 16,
       "value": "\"Encrypt String\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 2148,
+      "offset": 2149,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 2510,
+      "offset": 2511,
       "length": 16,
       "value": "\"Decrypt String\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 3111,
+      "offset": 3112,
       "length": 14,
       "value": "\"Encrypt Data\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 3665,
+      "offset": 3666,
       "length": 14,
       "value": "\"Decrypt Data\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 4208,
+      "offset": 4209,
       "length": 13,
       "value": "\"Sign String\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 4746,
+      "offset": 4747,
       "length": 15,
       "value": "\"Verify String\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 5256,
+      "offset": 5257,
       "length": 11,
       "value": "\"Sign Data\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 5733,
+      "offset": 5734,
       "length": 13,
       "value": "\"Verify Data\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 6197,
+      "offset": 6198,
       "length": 19,
       "value": "\"Create public key\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 6608,
+      "offset": 6609,
       "length": 20,
       "value": "\"Create private key\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 7020,
+      "offset": 7021,
       "length": 20,
       "value": "\"Create aes 128 key\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 7428,
+      "offset": 7429,
       "length": 20,
       "value": "\"Create aes 256 key\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 7849,
+      "offset": 7850,
       "length": 22,
       "value": "\"Create alpha num key\""
     },
