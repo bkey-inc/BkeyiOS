@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/banner.png" alt="Logo" width="320" height="160">
+    <img src="images/banner.png" alt="Logo" width="100%" height="100%">
   </a>
 
 <h1 align="center">Bkey iOS SDK</h1>
