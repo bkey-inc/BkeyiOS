@@ -8,7 +8,8 @@
     <img src="images/banner.png" alt="Logo" width="100%" height="100%">
   </a>
 
-<h1 align="center">Bkey iOS SDK</h1>
+<br />
+<br />
 
   <p align="center">
     The Bkey iOS SDK provides a set of tools for integrating biometric authentication into your iOS applications. This SDK includes functionalities for enrolling and verifying users using biometric data.
