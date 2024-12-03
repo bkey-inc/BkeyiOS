@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="160" height="160">
+    <img src="images/banner.png" alt="Logo" width="320" height="160">
   </a>
 
 <h1 align="center">Bkey iOS SDK</h1>
@@ -58,10 +58,9 @@ You then need to reach out to activate the account.
 <br>
 
 2. Set credentials
-  ```sh
-  bkeySDK.SetCredentials(clientId:String, clientSecret:String)
-  ```
-
+   ```sh
+   bkeySDK.SetCredentials(clientId:String, clientSecret:String)
+   ```
 <br>
 
 3. Enroll a user. 
@@ -185,21 +184,18 @@ Task{
 ```sh
   let key = try await BkeyiOS.shared.CreateAes128Key()
   print("Aes 128 Key:",key)
-  return key
 ```
 
 ### AES 256
 ```sh
   let key = try await BkeyiOS.shared.CreateAes256Key()
   print("Aes 256 Key:",key)
-  return key
 ```
 
 ### Alphanumeric
 ```sh
   let key = try await BkeyiOS.shared.CreateAlphaNumeric(size: 32)
   print("Alphanumeric Key:",key)
-  return key
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
