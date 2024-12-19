@@ -35,19 +35,6 @@ As digital platforms become central to our lives, the need for biometric authent
 
 Add the sdk to your application using SPM.
 
-Gain sdk access through a post request to: 
-```sh
-https://dev_api.davidpettey.com/authentication/v1/register
-With a body field for name of your organization
-
-Response will be in the form:{
-    "clientId": "x-x-x-x-x",
-    "clientSecret": "x-x-x-x-x"
-}
-
-You then need to reach out to activate the account. 
-```
-
 ### Usage
 
 1. Import the BkeyiOS class
@@ -212,5 +199,3 @@ Task{
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Bugs / Feature Requests
-Email: david.pettey@bkey.me
