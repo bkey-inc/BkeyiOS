@@ -45,13 +45,7 @@ Add the sdk to your application using SPM.
    ```
 <br>
 
-2. Set credentials
-   ```sh
-   bkeySDK.SetCredentials(clientId:String, clientSecret:String)
-   ```
-<br>
-
-3. Enroll a user. 
+2. Enroll a user. 
    ```sh
    import SwiftUI
 
@@ -65,7 +59,7 @@ Add the sdk to your application using SPM.
    ```
 <br>
 
-4. Verify a user.
+3. Verify a user.
    ```sh
    import SwiftUI
 
