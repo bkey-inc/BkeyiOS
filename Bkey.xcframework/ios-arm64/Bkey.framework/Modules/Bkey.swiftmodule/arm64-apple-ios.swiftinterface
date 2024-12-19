@@ -90,7 +90,6 @@ public enum ModeData {
   @objc deinit
 }
 extension Bkey.BkeyiOS {
-  public func SetCredentials(clientId: Swift.String, clientSecret: Swift.String)
   public func Enroll(deviceId: Swift.String, password: Swift.String, callback: @escaping ([Swift.UInt8]) -> Swift.Void) -> some SwiftUI.View
   
   public func Verify(deviceId: Swift.String, password: Swift.String, bioHash: [Swift.UInt8], callback: @escaping (Swift.Bool) -> Swift.Void) -> some SwiftUI.View

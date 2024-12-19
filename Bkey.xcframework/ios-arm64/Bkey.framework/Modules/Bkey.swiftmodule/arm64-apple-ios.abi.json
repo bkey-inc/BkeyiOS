@@ -2832,36 +2832,6 @@
           },
           {
             "kind": "Function",
-            "name": "SetCredentials",
-            "printedName": "SetCredentials(clientId:clientSecret:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:4Bkey7BkeyiOSC14SetCredentials8clientId0F6SecretySS_SStF",
-            "mangledName": "$s4Bkey7BkeyiOSC14SetCredentials8clientId0F6SecretySS_SStF",
-            "moduleName": "Bkey",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "Enroll",
             "printedName": "Enroll(deviceId:password:callback:)",
             "children": [
@@ -4932,13 +4902,6 @@
       "value": "299"
     },
     {
-      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Web\/WebRequester.swift",
-      "kind": "StringLiteral",
-      "offset": 2413,
-      "length": 36,
-      "value": "\"authentication\/v1\/log-mobile-usage\""
-    },
-    {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/secp256k1_Swift\/DH.swift",
       "kind": "IntegerLiteral",
       "offset": 1676,
@@ -5934,17 +5897,10 @@
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Web\/APISpec.swift",
-      "kind": "StringLiteral",
-      "offset": 327,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Web\/APISpec.swift",
-      "kind": "StringLiteral",
-      "offset": 349,
-      "length": 2,
-      "value": "\"\""
+      "kind": "BooleanLiteral",
+      "offset": 315,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/Core\/PersistenceController.swift",
@@ -9337,98 +9293,98 @@
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 1775,
+      "offset": 1612,
       "length": 16,
       "value": "\"Encrypt String\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 2149,
+      "offset": 1986,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 2511,
+      "offset": 2348,
       "length": 16,
       "value": "\"Decrypt String\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 3112,
+      "offset": 2949,
       "length": 14,
       "value": "\"Encrypt Data\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 3666,
+      "offset": 3503,
       "length": 14,
       "value": "\"Decrypt Data\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 4209,
+      "offset": 4046,
       "length": 13,
       "value": "\"Sign String\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 4747,
+      "offset": 4584,
       "length": 15,
       "value": "\"Verify String\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 5257,
+      "offset": 5094,
       "length": 11,
       "value": "\"Sign Data\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 5734,
+      "offset": 5571,
       "length": 13,
       "value": "\"Verify Data\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 6198,
+      "offset": 6035,
       "length": 19,
       "value": "\"Create public key\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 6609,
+      "offset": 6446,
       "length": 20,
       "value": "\"Create private key\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 7021,
+      "offset": 6858,
       "length": 20,
       "value": "\"Create aes 128 key\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 7429,
+      "offset": 7266,
       "length": 20,
       "value": "\"Create aes 256 key\""
     },
     {
       "filePath": "\/Users\/david\/Desktop\/bkey-main\/external-ios-sdk\/Bkey\/Bkey\/BkeySDK\/BkeySDK.swift",
       "kind": "StringLiteral",
-      "offset": 7850,
+      "offset": 7687,
       "length": 22,
       "value": "\"Create alpha num key\""
     },
@@ -13299,7 +13255,7 @@
     {
       "filePath": "\/Users\/david\/Library\/Developer\/Xcode\/DerivedData\/Bkey-frxdjbcpwrmqbubymbieatvgvpyz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Bkey\/IntermediateBuildFilesPath\/Bkey.build\/Release-iphoneos\/Bkey.build\/DerivedSources\/CoreDataGenerated\/PublicKeyStoreDataModel\/PublicKey+CoreDataProperties.swift",
       "kind": "StringLiteral",
-      "offset": 354,
+      "offset": 355,
       "length": 11,
       "value": "\"PublicKey\""
     }
